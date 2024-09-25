@@ -37,7 +37,7 @@ public class PutController {
         return memberDTO.toString();
     }
 
-    //String값 보다는 memberDTO와 같은 json항식으로 반환하는것이 더 좋음
+    //String값 보다는 memberDTO와 같은 json형식으로 반환하는것이 더 좋음
     @PutMapping(value = "/member2")
     public MemberDTO postMemberDto2(@RequestBody MemberDTO memberDTO) {
         return memberDTO;
